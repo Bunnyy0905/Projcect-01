@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding:0;
+    /* box-sizing: border-box; */
+}
+
+.container{
+    background-color: lightcyan;
+    min-height :100vh;
+    border: 10px solid #1d1e4c;
+}
+
+.content{
+    max-width: 950px;
+    margin: 0 auto; /*top,bottom = 0px, left,right=auto(i.e.center)*/
+}
+.image_container, img{  /*to apply for both */
+    height: 320px;
+    width:300px;
+
+}
+.image_container{
+    border-radius: 50%;
+    overflow: hidden; /*                 */
+    
+}
+.top_section{
+    display: flex;
+    justify-content: space-between; /*to create the space between two contents(i.e. the image and the text)*/
+    margin-top: 30px;
+    align-items: flex-end;
+}
+.top_section h1{
+    font-size: 40px;
+    font-weight: bold;
+    /* text-transform: uppercase; --->used to change the case */
+    /* text-align: end; */
+}
+.top_section h4{
+    text-align: end;
+    font-size: 20px;
+}
+
+.about_section {
+    margin-top: 40px;
+}
+.about_section h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+}
+.about_section p{
+    font-size: 20px;
+    line-height: 30px; /*To provide space between the lines*/
+    letter-spacing: 0.5px; /*to provide space between the letters*/
+    text-indent: 80px;
+    text-align: justify;
+}
+.about_bottom{
+    margin: 50px 0;
+}
+.about_bottom h2{
+    margin-bottom: 20px;
+}
+.about_bottom ul {
+    margin-left: 50px;
+}
+.about_bottom li{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+footer{
+    margin: 50px 0;
+}
+footer p{
+    text-align: end;
+    font-size: 17px;
+}
+footer a{
+    text-decoration: none;
+    color: blueviolet;
+}
